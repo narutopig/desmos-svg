@@ -22,6 +22,7 @@ function toReadable(text: string): string[] {
       currBlock !== "" &&
       currBlock !== ","
     ) {
+      ``;
       blocks.push(currBlock);
       currBlock = "";
       blocks.push(chars[i]);
